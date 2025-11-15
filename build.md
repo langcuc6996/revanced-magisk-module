@@ -1,30 +1,14 @@
-CLI: revanced-cli-2.23.0-all.jar  
-Integrations: revanced-integrations-0.114.0.apk  
-Patches: revanced-patches-2.186.0.jar  
+GooglePhotos (arm64-v8a): 7.54.0.830914249  
+GooglePhotos (arm-v7a): 7.54.0.830914249  
+Music (arm64-v8a): 8.10.52  
+Music (arm-v7a): 8.10.52  
+YouTube: 20.14.43  
 
-### [2.186.0](https://github.com/ReVanced/revanced-patches/compare/v2.185.0...v2.186.0) (2023-07-21)
+Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
+Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
 
-
-### Bug Fixes
-
-* **Tiktok - Settings:** get instruction registers dynamically ([#2676](https://github.com/ReVanced/revanced-patches/issues/2676)) ([b34e45b](https://github.com/ReVanced/revanced-patches/commit/b34e45b6dafad8e9d567ad65f58a182b8cc04676))
-* **YouTube - Spoof app version:** update target app version description ([#2666](https://github.com/ReVanced/revanced-patches/issues/2666)) ([307442e](https://github.com/ReVanced/revanced-patches/commit/307442e654ff5486656319d91e4a5f5fb2b92651))
-* **YouTube - Theme:** allow setting no background color ([8a4e77a](https://github.com/ReVanced/revanced-patches/commit/8a4e77a290a61a1caf93eb8bccaf728c84a3ef53))
-* **YouTube - Theme:** apply custom seekbar color to shorts ([#2670](https://github.com/ReVanced/revanced-patches/issues/2670)) ([1f6fe3d](https://github.com/ReVanced/revanced-patches/commit/1f6fe3da4284fd768057ef068c7ddf88d3a11049))
-
-
-### Features
-
-* **Twitter:** remove `Hide view stats` patch ([f0d3800](https://github.com/ReVanced/revanced-patches/commit/f0d38001b34db63f212209afb91eebf59dad2b24))
-* **Youtube - Theme:** add a switch to enable/disable custom seekbar color ([#2663](https://github.com/ReVanced/revanced-patches/issues/2663)) ([5c39985](https://github.com/ReVanced/revanced-patches/commit/5c39985888cdfe3acfdd8811ff9b6f80e243704e))
-
-
-
-
+[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
-**App Versions:**  
-Instagram (arm64-v8a): 275.0.0.27.98  
-
-Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) to be able to use non-root YouTube or Music  
-
-[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
+CLI: j-hc/revanced-cli-5.0.0-all.jar  
+Patches: ReVanced/patches-5.46.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.46.0)  
